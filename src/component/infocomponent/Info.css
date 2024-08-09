@@ -1,0 +1,31 @@
+.imgwrapperdiv{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.img img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.text h1{
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.text label{
+  color: hsl(75, 94%, 57%);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
